@@ -9,11 +9,11 @@ def run():
     #quitar los espacios de la cadena
     print('su nombre sin los espacio innecesario =>',name.strip())
     #remplazar letra
-    a=int(input('ingrese la letra que queire cambiar'))
-    b=int(input('ingrese la letra que quiere remplazar'))
+    a=input('ingrese la letra que queire cambiar')
+    b=input('ingrese la letra que quiere remplazar')
     print('las palabras ya remplasadas =>',name.replace(a,b))
     #indice o posiciones de cada letra
-    indi=int
+    print('PARA MAS METODOS O FUNCIONES VAMOS A LA DOCUMENTACION: https://docs.python.org/3/library/functions.html#oct')
 
 if __name__ == "__main__":
     run()
